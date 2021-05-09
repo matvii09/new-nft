@@ -17,7 +17,7 @@ contract NFT is ERC721 {
   }
 
   function _baseURI() internal view override returns (string memory) {
-    return 'https://serene-atoll-23356.herokuapp.com/';
+    return 'https://quiet-springs-63520.herokuapp.com/';
   }
 
 }

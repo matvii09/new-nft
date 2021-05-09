@@ -4,6 +4,9 @@ const tokens = require('./tokens.json');
 
 router.get('/:tokenId', async (ctx, next) => {
   const token = tokens[ctx.params.tokenId];
+  console.log('-------------');
+  console.log('-------------');
+  console.log(token);
 
   if(typeof token === 'undefined') {
     ctx.status = 400;

@@ -14,10 +14,6 @@ class App extends Component{
     }
 
     // this.uploadImage = this.uploadImage.bind(this)
-    // this.tipImageOwner = this.tipImageOwner.bind(this)
-    // this.tipImageBronze = this.tipImageBronze.bind(this)
-    // this.tipRealBronze = this.tipRealBronze.bind(this)
-    // this.captureFile = this.captureFile.bind(this)
   }
 
   async componentWillMount() {
